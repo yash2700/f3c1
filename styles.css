@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 4rem;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 1rem ;
+}
+input{
+    background-color: black;
+    outline: none;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+    width: 380px;
+    height: 15px;
+    color: white;
+    padding:0.7rem;
+}
+
+#error-success{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 2rem;
+}
+
+#initial-count{
+    color: #FFFFFF80;
+}
+
+.list-item{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 2rem;
+}
+
+.left{
+    border: 1px solid whitesmoke;
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+.delete{
+    margin-top: 0;
+    border-radius: 50px;
+    width: 140px;
+}
+
+ul{
+    margin: 0;
+}
+
